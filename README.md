@@ -1,14 +1,14 @@
 # Prof. Marbles Solver
 
 Ein in **SWI-Prolog** entwickelter Solver für das Puzzle **Prof. Marbles**.  
-Das Projekt löst **60 Puzzle-Instanzen automatisch** und berechnet mit **Breadth-First Search (BFS)** **minimale Zugfolgen**.
+Im Projekt habe ich das Spiel in Prolog modelliert, gültige Zugregeln umgesetzt und einen Solver mit **Breadth-First Search (BFS)** entwickelt, der **60 Puzzle-Instanzen automatisch** löst und **minimale Zugfolgen** berechnet.
 
 ## Projektinhalt
-- Modellierung des Spiels und der Zustände in Prolog
-- Implementierung gültiger Zugregeln
-- Automatische Lösung von 60 Aufgaben
-- Berechnung kürzester Lösungen mit BFS
-- Ausgabe von Zugfolge und Zuganzahl
+- Modellierung von Spielzuständen und Röhrenstrukturen in Prolog
+- Implementierung der Zuglogik und Zustandsübergänge
+- Entwicklung eines BFS-basierten Solvers zur Berechnung kürzester Lösungen
+- Automatische Ausführung und Lösung von 60 Aufgaben
+- Ausgabe von Zugfolge, Zuganzahl und Referenzwerten
 - Unterstützung partieller Zielzustände
 - Aufbereitung und Import der Aufgaben als Prolog-Fakten
 
@@ -30,4 +30,4 @@ Beispiele:
 - Python (optional zur Generierung der Task-Datei)
 
 ## Autor
-Mohammad (Brayen) Hamidinia
+Brayan Mohammad Hamidinia
